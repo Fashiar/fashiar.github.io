@@ -1,297 +1,101 @@
 ---
 permalink: /markdown/
-title: "Markdown"
+title: "Sponsored Research and Grants"
 author_profile: true
 redirect_from: 
   - /md/
   - /markdown.html
 ---
 
-## Locations of key files/directories
-
-* Basic config options: _config.yml
-* Top navigation bar config: _data/navigation.yml
-* Single pages: _pages/
-* Collections of pages are .md or .html files in:
-  * _publications/
-  * _portfolio/
-  * _posts/
-  * _teaching/
-  * _talks/
-* Footer: _includes/footer.html
-* Static files (like PDFs): /files/
-* Profile image (can set in _config.yml): images/profile.png
-
-## Tips and hints
-
-* Name a file ".md" to have it render in markdown, name it ".html" to render in HTML.
-* Go to the [commit list](https://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version GitHub built with Jekyll. 
-  * Green check: successful build
-  * Orange circle: building
-  * Red X: error
-  * No icon: not built
-
-* Academic Pages uses [Jekyll Kramdown](https://jekyllrb.com/docs/configuration/markdown/), GitHub Flavored Markdown (GFM) parser, which is similar to the version of Markdown used on GitHub, but may have some minor differences. 
-  * Some of emoji supported on GitHub should be supposed via the [Jemoji](https://github.com/jekyll/jemoji) plugin :computer:.
-  * The best list of the supported emoji can be found in the [Emojis for Jekyll via Jemoji](https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#computer) blog post.
-
-* While GitHub Pages prevents server side code from running, client-side scripts are supported.
-  * This means that Google Analytics is supported, and [the wiki](https://github.com/academicpages/academicpages.github.io/wiki/Adding-Google-Analytics) should contain the most up-to-date information on getting it working.
-
-## Resources
- * [Liquid syntax guide](https://shopify.github.io/liquid/tags/control-flow/)
- * [MathJax Documentation](https://docs.mathjax.org/en/latest/)
-
-## MathJax 
-
-Support for MathJax Version 3.0 is included in the template:
-
-$$
-\displaylines{
-\nabla \cdot E= \frac{\rho}{\epsilon_0} \\\
-\nabla \cdot B=0 \\\
-\nabla \times E= -\partial_tB \\\
-\nabla \times B  = \mu_0 \left(J + \varepsilon_0 \partial_t E \right)
-}
-$$
-
-The default delimiters of `$$...$$` and `\\[...\\]` are supported for displayed mathematics, while `\\(...\\)` should be used for in-line mathematics (ex., \\(a^2 + b^2 = c^2\\))
-
-**Note** that since Academic Pages uses Markdown which cases some interference with MathJax and LaTeX for escaping characters and new lines, although [some workarounds exist](https://math.codidact.com/posts/278763/278772#answer-278772).
-
-## Markdown guide
-
-Academic Pages uses [kramdown](https://kramdown.gettalong.org/index.html) for Markdown rendering, which has some differences from other Markdown implementations such as GitHub's. In addition to this guide, please see the [kramdown Syntax page](https://kramdown.gettalong.org/syntax.html) for full documentation.  
-
-### Header three
-
-#### Header four
-
-##### Header five
-
-###### Header six
-
-## Blockquotes
-
-Single line blockquote:
-
-> Quotes are cool.
-
-## Tables
-
-### Table 1
-
-| Entry            | Item   |                                                              |
-| --------         | ------ | ------------------------------------------------------------ |
-| [John Doe](#)    | 2016   | Description of the item in the list                          |
-| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
-| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
-
-### Table 2
-
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | ce
-ll5   | cell6   |
-|-----------------------------|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=============================|
-| Foot1   | Foot2   | Foot3   |
-
-## Definition Lists
-
-Definition List Title
-:   Definition list division.
-
-Startup
-:   A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
-
-#dowork
-:   Coined by Rob Dyrdek and his personal body guard Christopher "Big Black" Boykins, "Do Work" works as a self motivator, to motivating your friends.
-
-Do It Live
-:   I'll let Bill O'Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
-
-## Unordered Lists (Nested)
-
-  * List item one 
-      * List item one 
-          * List item one
-          * List item two
-          * List item three
-          * List item four
-      * List item two
-      * List item three
-      * List item four
-  * List item two
-  * List item three
-  * List item four
-
-## Ordered List (Nested)
-
-  1. List item one 
-      1. List item one 
-          1. List item one
-          2. List item two
-          3. List item three
-          4. List item four
-      2. List item two
-      3. List item three
-      4. List item four
-  2. List item two
-  3. List item three
-  4. List item four
-
-## Buttons
-
-Make any link standout more when applying the `.btn` class.
-
-## Notices
-
-Basic notices or call-outs are supported using the following syntax:
-
-```markdown
-**Watch out!** You can also add notices by appending `{: .notice}` to the line following paragraph.
-{: .notice}
-```
-
-which wil render as:
-
-**Watch out!** You can also add notices by appending `{: .notice}` to the line following paragraph.
-{: .notice}
-
-### Footnotes
-
-Footnotes can be useful for clarifying points in the text, or citing information.[^1] Markdown support numeric footnotes, as well as text as long as the values are unique.[^note]
-
-```markdown
-This is the regular text.[^1] This is more regular text.[^note]
-
-[^1]: This is the footnote itself.
-[^note]: This is another footnote.
-```
-
-[^1]: Such as this footnote.
-[^note]: When using text for footnotes markers, no spaces are permitted in the name.
-
-## HTML Tags
-
-### Address Tag
-
-<address>
-  1 Infinite Loop<br /> Cupertino, CA 95014<br /> United States
-</address>
-
-### Anchor Tag (aka. Link)
-
-This is an example of a [link](http://github.com "GitHub").
-
-### Abbreviation Tag
-
-The abbreviation CSS stands for "Cascading Style Sheets".
-
-*[CSS]: Cascading Style Sheets
-
-### Cite Tag
-
-"Code is poetry." ---<cite>Automattic</cite>
-
-### Code Tag
-
-You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
-
-You can also write larger blocks of code with syntax highlighting supported for some languages, such as Python:
-
-```python
-print('Hello World!')
-```
-
-or R:
-
-```R
-print("Hello World!", quote = FALSE)
-```
-
-### Details Tag (collapsible sections)
-
-The HTML `<details>` tag works well with Markdown and allows you to include collapsible sections, see [W3Schools](https://www.w3schools.com/tags/tag_details.asp) for more information on how to use the tag.
-
-<details>
-  <summary>Collapsed by default</summary>
-  This section was collapsed by default!
-</details>
-
-The source code:
-
-```HTML
-<details>
-  <summary>Collapsed by default</summary>
-  This section was collapsed by default!
-</details>
-```
-
-Or, you can leave a section open by default by including the `open` attribute in the tag:
-
-<details open>
-  <summary>Open by default</summary>
-  This section is open by default thanks to open in the &lt;details open&gt; tag!
-</details>
-
-
-### Emphasize Tag
-
-The emphasize tag should _italicize_ text.
-
-### Insert Tag
-
-This tag should denote <ins>inserted</ins> text.
-
-### Keyboard Tag
-
-This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` tag.
-
-### Preformatted Tag
-
-This tag styles large blocks of code.
-
-<pre>
-.post-title {
-  margin: 0 0 5px;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 1.2;
-  and here's a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows;
-}
-</pre>
-
-### Quote Tag
-
-<q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
-
-### Strike Tag
-
-This tag will let you <strike>strikeout text</strike>.
-
-### Strong Tag
-
-This tag shows **bold text**.
-
-### Subscript Tag
-
-Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
-
-### Superscript Tag
-
-Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should lift the 2 up.
-
-### Variable Tag
-
-This allows you to denote <var>variables</var>.
-
-***
-**Footnotes**
-
-The footnotes in the page will be returned following this line, return to the section on <a href="#footnotes">Markdown Footnotes</a>.
-
+## FOREIGN OBJECT DEBRIS - PHASE II
+**PI:** Tzu-Liang Tseng <br/>
+**Co-PI:** Md Fashiar Rahman, Yirong Lin <br/>
+**Sponsor:** Lockheed Martin Aeronautics <br/>
+**Proposal/Award Number:** <br/>
+**Primary Place of Performance:** The University of Texas at El Paso, RIMES <br/>
+**Amount awarded:** $149,500 <br/>
+**Award start date:** 03/2025 <br/>
+**Award end date:** 12/2025 <br/>
+**Overall Objectives:** This proposal will develop a Foreign Objects Damage Simulation Software for LMA. <br/>
+
+
+## Travel Support for the 2025 American Society for Engineering Education (ASEE) Annual Conference and Expo
+**PI:** Faisal Aqlan <br/>
+**Co-PI:** Md Fashiar Rahman, Ismail Fidan <br/>
+**Sponsor:** National Science Foundation <br/>
+**Proposal/Award Number:2500279 <br/>
+**Primary Place of Performance:** University of Louisville <br/>
+**Amount awarded:** $25,00 <br/>
+**Award start date:** 11/2024 <br/>
+**Award end date:** 10/2025 <br/>
+**Overall Objectives:** The key objectives of this proposal are to (1) provide financial support to 25-30 undergraduate and graduate students attending the ASEE Annual Conference to ensure their participation in the Manufacturing Division sessions and activities, (2) promote student engagement in state-of-the-art manufacturing innovation and education, with an emphasis on digital manufacturing, advanced manufacturing systems, and sustainable manufacturing practices, (3) increase participation of students from underrepresented groups in manufacturing engineering, thereby promoting diversity and inclusion in the field, (4) provide students with opportunities to network with experts and professionals in manufacturing for future collaborations and career development, and (5) contribute to the growth and development of the U.S. manufacturing workforce by exposing students to the latest research and technological advancements in manufacturing education. <br/>
+
+## Empowering Underrepresented Minorites Through Applied Artificial Intelligence Education with Enhanced Access and Success in Engineering
+**PI:** Tzu-Liang (Bill) Tseng <br/>
+**Co-PI:** Md Fashiar Rahman, Yirong Lin, and Arturo Olivarez <br/>
+**Sponsor:** U.S. Department of Education <br/>
+**Proposal/Award Number:** P120A220044 <br/>
+**Primary Place of Performance:** The University of Texas at El Paso <br/>
+**Amount awarded:** $900,000 <br/>
+**Award start date:** 10/2024 <br/>
+**Award end date:** 09/2027 <br/>
+**Overall Objectives:** This project aims to nurture a supportive academic environment for URMs and provide them with premium, career-focused education, hands-on training in applied AI fields, and an extensive support network for successful career growth. <br/>
+
+
+## Enhancing Career Pathway in Intelligent Manufacturing Through Remote Accelerated Center of Engineering Student Success (REMOTE-ACCESS)
+**PI:** Tzu-Liang (Bill) Tseng <br/>
+**Co-PI:** Md Fashiar Rahman, Michael Pokojovy, Yirong Lin, and Arturo Olivarez <br/>
+**Sponsor:** U.S. Department of Education <br/>
+**Proposal/Award Number:** P120A220044 <br/>
+**Primary Place of Performance:** The University of Texas at El Paso <br/>
+**Amount awarded:** $900,000 <br/>
+**Award start date:** 10/2022 <br/>
+**Award end date:** 09/2025 <br/>
+**Overall Objectives:** The short-term impacts of this project are improved student success in graduation, enhanced student career pathways, student technical readiness in IM, and accelerated remote learning capability. <br/>
+
+
+## Student Engagement and Training in Healthcare Engineering with Advanced Data Analytics Solutions
+**PI:** Tzu-Liang (Bill) Tseng <br/>
+**Co-PI:** Md Fashiar Rahman, Michael Pokojovy, and Sreenath Chalil Madathil <br/>
+**Sponsor:** National Science Foundation <br/>
+**Proposal/Award Number:** DUE-2216396 <br/>
+**Primary Place of Performance:** The University of Texas at El Paso <br/>
+**Amount awarded:** $300,000 <br/>
+**Award start date:** 09/2022 <br/>
+**Award end date:** 08/2025 <br/>
+**Overall Objectives:** The overarching goal of the proposed three-year project is to develop healthcare systems-related education and training materials and prepare the underrepresented student groups, especially the Hispanic students and students from socioeconomically disadvantaged backgrounds, for today’s healthcare sectors and make them successful in their academic goals. <br/>
+
+## FOREIGN OBJECT DEBRIS - PHASE I
+**PI:** Tzu-Liang Tseng <br/>
+**Co-PI:** Md Fashiar Rahman, Yirong Lin <br/>
+**Sponsor:** Lockheed Martin Aeronautics <br/>
+**Proposal/Award Number:** <br/>
+**Primary Place of Performance:** The University of Texas at El Paso, RIMES <br/>
+**Amount awarded:** $149,500 <br/>
+**Award start date:** 09/2023 <br/>
+**Award end date:** 05/2024 <br/>
+**Overall Objectives:** This proposal will develop a Foreign Objects Damage Simulation Software for LMA. <br/>
+
+
+## Developing Modeling and Simulation based Engineering Learning Environment for Capacity Transformation (M-SELECT) in Higher Education
+**PI:** Tzu-Liang (Bill) Tseng <br/>
+**Co-PI:** Md Fashiar Rahman, Michael Pokojovy, and Arturo Olivarez <br/>
+**Sponsor:** U.S. Department of Education <br/>
+**Proposal/Award Number:** P116S210004 <br/>
+**Primary Place of Performance:** The University of Texas at El Paso <br/>
+**Amount awarded:** $1,061,509 <br/>
+**Award start date:** 01/2022 <br/>
+**Award end date:** 12/2024 <br/>
+**Overall Objectives:** The Department of Industrial Manufacturing and Systems Engineering (IMSE) at The University of Texas at El Paso (UTEP) in collaboration with Mathematical Science (MS) and Educational Leadership and Foundation (EDLF) Departments, wants to leverage the funding opportunity solicited by Modeling and Simulation Program (MSP) from the Department of Education (DoEd) to develop a new concentration in Systems Modeling and Simulation (SMS). <br/>
+
+
+## A Smart Manufacturing Implementation and Workforce Development Playbook for Underserved Small Medium Manufacturers.
+**PI:** Amit Lopes <br/>
+**Co-PI:** Sergio Luna Fong, Tzu-Liang Tseng, Md Fashiar Rahman, and Ivan A Renteria Marquez <br/>
+**Sponsor:** U.S. Department of Energy Through University of California, Los Angeles <br/>
+**Proposal/Award Number:**  <br/>
+**Primary Place of Performance:** The University of Texas at El Paso, RIMES <br/>
+**Amount awarded:** $150,000 <br/>
+**Award start date:** 07/2023 <br/>
+**Award end date:** 12/2023 <br/>
+**Overall Objectives:** This project develops a Smart Manufacturing “playbook” to guide regional underserved small and mid-sized manufacturers in achieving higher levels of productivity and build capacity, particularly in a resource constrained environment. <br/>
