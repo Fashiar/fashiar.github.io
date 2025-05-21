@@ -1,49 +1,79 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Bio"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Dr. Md Fashiar Rahman is an Assistant Professor in the Department of Industrial, Manufacturing, and Systems Engineering (IMSE) at The University of Texas at El Paso. He earned his Ph.D. (2021) and M.S. (2018) in Computational Science, with a strong research background in image data mining, machine learning, and deep learning, particularly in industrial and healthcare applications. His expertise spans data analytics, computer modeling and simulation, artificial intelligence in healthcare, smart manufacturing, computational intelligence, and advanced quality technology. Dr. Rahman's research has received funding from various prestigious agencies, including the National Science Foundation (NSF), the U.S. Department of Education, and Lockheed Martin. His scholarly work has been widely published in peer-reviewed journals and conferences, including Biomedical Signal Processing and Control, Diagnostics, Journal of Systems Science, Journal of X-Ray Science and Technology, Journal of Visual Communication and Image Representation, CIRP Manufacturing Letters, Winter Simulation Conference, ASEE, and IISE Annual Conference and Expo, among others. Beyond his research and academic contributions, Dr. Rahman has played an active leadership role in the professional community. He has served as Secretary, Program Chair, and Division Chair of the Manufacturing Division of the American Society for Engineering Education (ASEE), further demonstrating his commitment to advancing engineering education and research.
 
-A data-driven personal website
+Research Interests
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+- Applied Artificial Intelligence
+- Deep Learning
+- Computer Modeling and Simulation
+- Smart Manufacturing
+- Digital Twins
+- Healthcare Systems
+- Big Data Analytics
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
+System Innovation With Modeling and Simulation (SIMS) Laboratory
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+Dr. Rahman serves as the director of the System Innovation with Modeling and Simulation (SIMS) Laboratory, which was established through the collaborative efforts of Dr. Rahman and Dr. Tseng, with partial funding from the U.S. Department of Education's FIPSE program. The SIMS Laboratory is committed to pioneering innovative solutions for complex ecosystems, particularly in manufacturing and healthcare, by harnessing advanced computational techniques (Check our video on [YouTube](https://www.youtube.com/watch?v=V6P-NZGefFw)). Our research integrates five intertwined thrusts: 1) Systems Modeling and Simulation, 2) Digital Twins, 2) Smart Manufacturing, 4) Intelligent Supply Chain, and 5) Healthcare Data Analytics. By bridging theoretical advancements with practical applications, we strive to address real-world challenges, improve system efficiency, and develop the next generation of intelligent, data-driven solutions. Through interdisciplinary collaboration and state-of-the-art technologies, the SIMS Laboratory remains at the forefront of transforming industrial and healthcare systems for a smarter, more efficient future. 
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+![SIMS Laboratory Photo](/files/SIMS_01.jpg) <br/><br/>
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Brief Description of SIMS Research Thrusts
+======
 
-**Markdown generator**
+<img width="200" align="right" src="/images/RT1_SMS.png" /> **Research Thrust 1: Systems Modeling and Simulation (SMS)** <br/>
+SMS aims to create advanced virtual models that replicate and analyze any complex ecosystems. By integrating key modeling techniques such as Discrete Event Simulation (DES), Agent-Based Modeling (AB), and Systems Dynamics (SD), this research enables the simulation of various manufacturing and healthcare scenarios. The focus is on performing multi-scenario experiments, conducting in-depth what-if analyses, and validating processes in a risk-free environment, ultimately providing insights for process optimization, resource allocation, and decision-making without real-world consequences. These models help improve system performance, predict potential risks, and support data-driven strategies in complex operations.<br/>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<img width="200" align="left" src="/images/RT2_DT.png" /> **Research Thrust 2: Digital Twins (DTs)** <br/>
+The DT research thrust, similar to the SMS, focuses on creating dynamic virtual models of physical systems. However, it uniquely integrates physics-based models with real-time data from sensors or vision systems embedded in the physical counterpart. Our team is developing multi-physics DTs that combine thermal, mechanical, and material behavior modeling, enhanced with AI/ML algorithms. This research bridges the gap between physical and digital environments, enabling more efficient, adaptive, and responsive manufacturing processes, improving decision-making, process optimization, and predictive maintenance.<br/>
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<img width="250" align="right" src="/images/RT3_IM.png" /> **Research Thrust 3: Smart Manufacturing** <br/>
+The research thrust focuses on integrating cutting-edge technologies such as artificial intelligence (AI), machine learning, and big data analytics into manufacturing processes. Our team aims to enhance automation, enable real-time monitoring, and implement closed-loop control systems. These advancements are designed to improve productivity, minimize human intervention, and create adaptive manufacturing systems capable of responding to changing demands, ultimately paving the way for smarter, more efficient manufacturing operations in the future industrial landscape.<br/>
+
+
+<img width="250" align="left" src="/images/RT4_SC.png" /> **Research Thrust 4: Intelligent Supply Chain** <br/>
+The Intelligent Supply Chain research aims to revolutionize supply chain operations by leveraging advanced technologies such as real-time GIS data, knowledge graphs, and automated data extraction. Our work optimizes decision-making, improves operational efficiency, and mitigates supply chain risks. By integrating these technologies, we enable real-time monitoring, predictive analytics, and seamless information flow, enhancing supply chain resilience, adaptability, and responsiveness, ultimately ensuring better performance and risk management in dynamic environments. <br/>
+
+
+<img width="200" align="right" src="/images/RT5_HDA.png" /> **Research Thrust 5: Healthcare Data Analytics** <br/>
+This research thrust focuses on advancing biomedical image analysis techniques, such as CT, MRI, and X-ray imaging, to improve diagnostics and treatment planning. We integrate cutting-edge machine learning algorithms for tasks like image segmentation, anomaly detection, and predictive analytics. These innovations aim to enhance patient outcomes, optimize healthcare workflows, predict Length-of-Stay (LOS), and provide real-time, data-driven insights for personalized care, supporting informed medical decision-making and more efficient and smart healthcare delivery.<br/><br/>
+
+
+Available Resources and Equipment
+======
+The SIMS Laboratory is well-equipped to support advanced research in computational modeling, AI, and simulation. It features six student workstations with computers running standard Microsoft-based software, one high-performance GPU workstation, and a Linux-based Lambda server with four RTX A6000 GPUs for intensive computational tasks. The lab is also outfitted with a F370 Stratasys 3D printer for rapid prototyping, two Makerbot 3D printers, Siemens S7 PLC emulator, infrared thermal camera, and several types of sensors for data acquisition. Specialized software includes AnyLogic Multimethod simulation software, FlexSim, AnSys, Unity, and a suite of Python-based AI/ML libraries (TensorFlow, Keras, PyTorch, Scikit-Learn, Seaborn, Plotly, Pandas, etc.). Currently, six students are working on diverse projects in this well-equipped and resource-rich environment.
+
+
+
+| **Equipment**                        | **Description**                                               | **Quantity** | **Features**                                                |
+|--------------------------------------|---------------------------------------------------------------|--------------|-------------------------------------------------------------|
+| **Student Workstations**         | Computers with standard Microsoft-based software              | 6            | Standard software, office applications, basic computational tools |
+| **GPU Workstation**                  | High-performance workstation for computational tasks          | 1            | High-performance GPU for intensive tasks, AI/ML applications |
+| **Lambda Server (Linux-based)**     | Server with four RTX A6000 GPUs for intensive AI/ML tasks     | 1            | Four RTX A6000 GPUs, Linux-based system for large-scale computations |
+| **F370 Stratasys 3D Printer**        | Used for rapid prototyping                                    | 1            | High-quality 3D printing for prototypes and models          |
+| **Makerbot 3D Printers**         | 3D printers for various prototyping applications              | 2            | Suitable for small-scale prototyping, versatile printing options |
+|**Siemens S7 Emulator**              | Simulation software for emulating Siemens S7 PLCs             | 1            | Supports testing and emulation of Siemens S7 PLC systems without physical hardware |
+| **Digital Twin Conveyor**           | Digital Twin simulation for conveyor system in manufacturing | 1            | Real-time simulation of conveyor systems for quality monitoring |
+| **AnyLogic Multimethod Simulation**  | Software for multitudes of simulation methodologies           | 1            | Supports agent-based, discrete-event, and system dynamics simulation |
+| **FlexSim Software**                 | Simulation software for process modeling                      | 1            | Advanced tools for process optimization and modeling        |
+| **AnSys**                            | Simulation software for engineering and analysis              | 1            | Engineering simulation for structural, thermal, and fluid dynamics |
+| **Unity**                            | Software for real-time 3D development and simulation          | 1            | Real-time 3D simulation, game development, AR/VR support    |
+| **Python (AI/ML Libraries)**         | Includes TensorFlow, Keras, PyTorch, Scikit-Learn, Seaborn, Plotly, Pandas, etc. | 1            | Python libraries for machine learning, data analysis, and visualization |
+| **Dell Interactive Touch Monitor**	| Mounted on a movable mount for research demo and presentation          | 1            | 65” 4K C6522QT Touch Monitor and Whiteboard     |
+
+
+
+<img align="center" src="/images/Acknowledgement.png" /> 
+
+
+
+
