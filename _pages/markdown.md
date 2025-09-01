@@ -6,6 +6,17 @@ redirect_from:
   - /md/
   - /markdown.html
 ---
+## Collaborative Research: From Awareness to Action: Integrating responsible AI practice into Undergraduate Engineering Education
+**PI:** Md Fashiar Rahman <br/>
+**Co-PI:** Honglun Xu <br/>
+**Sponsor:** National Science Foundation <br/>
+**Proposal/Award Number:** 2518850 <br/>
+**Primary Place of Performance:** The University of Texas at El Paso, RIMES <br/>
+**Amount awarded:** $150,000 <br/>
+**Award start date:** 10/2025 <br/>
+**Award end date:** 09/2028 <br/>
+**Overall Objectives:** The goal of the proposed project is to build an educational framework that not only teaches the theoretical aspects of AI and data science but also empowers students to apply responsible and sustainable AI principles to real-world applications, such as the healthcare sector, where ethical and responsible practices are essential. <br/>
+
 
 ## FOREIGN OBJECT DEBRIS - PHASE II
 **PI:** Tzu-Liang Tseng <br/>
@@ -99,4 +110,5 @@ redirect_from:
 **Award start date:** 07/2023 <br/>
 **Award end date:** 12/2023 <br/>
 **Overall Objectives:** This project develops a Smart Manufacturing “playbook” to guide regional underserved small and mid-sized manufacturers in achieving higher levels of productivity and build capacity, particularly in a resource constrained environment. <br/>
+
 
