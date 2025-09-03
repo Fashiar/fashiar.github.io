@@ -6,6 +6,15 @@ permalink: /portfolio/6_Formal_MS_Students
 
 <br/>
 
+<img width="150" src="/images/Jose_Arvizu.jpg" />
+# Jose F Arvizu Astorga
+**Program:** MS in Computer Engineering <br/>
+**Research Topic:** Digital Twin for Real-Time Monitoring and Control of Conveyor Systems Using FlexSim, AI, and PLC Integration <br/>
+**Tentative Graduation Date:** 07/25/2025 <br/>
+**Abstract:** This project developed a Digital Twin (DT) of a conveyor system using FlexSim simulation software, the FlexSim Emulation module, a vision system, and a programmable logic controller (PLC). The system integrates multiple sensors, including a vision sensor, to capture real-time data. The vision system uses artificial intelligence (AI) to train a model for object classification. Using a convolutional neural network (CNN) called EfficientNetB0, we developed a classifier capable of identifying object colors, shapes, and defective items not intended for processing. A mini-scale prototype served as a testbed, demonstrating real-time monitoring, remote oversight, and enhanced system control. To demonstrate how a Digital Twin can enhance manufacturing systems, a case study was conducted comparing a traditional inspection scheme with a DT-based inspection approach. A simulation of a standard 8-hour production shift was run using the developed model. The results, based on performance metrics provided by the simulation software, indicate that the DT inspection scheme is more cost-effective, reduces scrap, and improves overall production efficiency.<br/>
+<img src='/images/Jose_DT_Framework.png'/><br/><br/>
+
+
 <img width="150" src="/images/Alan_Lopez.jpg" />
 # Alan Lopez
 **Program:** MS in Systems Engineering <br/>
@@ -60,6 +69,7 @@ streamlined delivery fulfillment. The effectiveness of the delivery process is g
 **Graduation Date:** 07/09/2023<br/>
 **Abstract:** Wind turbines are subjected to continuous rotational stresses and unusual external forces such as storms, lightning, strikes by flying objects, etc., which may cause defects in turbine blades. Hence, a periodical inspection is required to ensure proper functionality and avoid catastrophic failure. The task of inspection is challenging due to the remote location and the inconvenient accessibility for human inspection. Researchers used images with cropped defects from the wind turbine in the literature. They neglected possible background biases, which may hinder real-time and autonomous defect detection using aerial vehicles such as drones or others. To overcome such challenges, in this paper, we experiment with defect detection accuracy by having the defects with the background using a two-step deep-learning methodology. In the first step, we develop virtual models of wind turbines to synthesize the near-reality images for four types of common defects - cracks, leading edge erosion, bending, and light striking damage. The Unity® perception package generates wind turbine blade defect images with variations in background, randomness, camera angle, and light effects. In the second step, a customized U-Net architecture is trained to classify and segment the defect in turbine blades. The outcomes of the U-Net architecture have been thoroughly tested and compared with 5-fold validation datasets. The proposed methodology provides reasonable defect detection accuracy, making it suitable for autonomous and remote inspection through aerial vehicles.<br/>
 <img src='/images/Fazle_Thesis_Framework.png'/>"<br/><br/>
+
 
 
 
