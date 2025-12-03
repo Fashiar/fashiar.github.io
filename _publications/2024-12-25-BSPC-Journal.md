@@ -1,0 +1,19 @@
+---
+title: "Uncertainty-Guided Semi-Supervised (UGSS) Mean Teacher Framework for Brain Hemorrhage Segmentation and Volume Quantification"
+collection: publications
+category: manuscripts
+permalink: /publication/2024-12-25-BSPC-Journal
+excerpt: 'Check the paper at [DOI]( https://doi.org/10.1016/j.bspc.2024.107386 ) or download from below.'
+date: 2024-12-25
+venue: ' Biomedical Signal Processing and Control'
+slidesurl: 'https://doi.org/10.1016/j.bspc.2024.107386'
+paperurl: 'http://fashiar.github.io/files/2024-12-25-BSPC-Journal.pdf'
+citation: 'Emon, Solayman Hossain, Tzu-Liang Bill Tseng, Michael Pokojovy, Scott Moen, Peter McCaffrey, Eric Walser, Alexander Vo, and Md Fashiar Rahman* &quot;Uncertainty-Guided Semi-Supervised (UGSS) Mean Teacher Framework for Brain Hemorrhage Segmentation and Volume Quantification.&quot; Biomedical Signal Processing and Control 102 (2025): 107386.'
+---
+Check the paper at https://doi.org/10.1016/j.bspc.2024.107386 or download from below.
+
+[Download slides here](https://doi.org/10.1016/j.bspc.2024.107386)
+
+[Download paper here](http://fashiar.github.io/files/2024-12-25-BSPC-Journal.pdf)
+
+**Recommended citation:** Emon, Solayman Hossain, Tzu-Liang Bill Tseng, Michael Pokojovy, Scott Moen, Peter McCaffrey, Eric Walser, Alexander Vo, and Md Fashiar Rahman* "Uncertainty-Guided Semi-Supervised (UGSS) Mean Teacher Framework for Brain Hemorrhage Segmentation and Volume Quantification." Biomedical Signal Processing and Control 102 (2025): 107386.
