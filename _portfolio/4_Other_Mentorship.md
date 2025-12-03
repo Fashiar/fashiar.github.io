@@ -7,9 +7,10 @@ permalink: /portfolio/4_Other_Mentorship
 <br/>
 
 # Dissertation Committee Co-Chair/Member
-- **Dissertation Committee Co-Chair:** Solayman Hossain Emon, PhD Candidate in Computational Science Program, December 2025 (In Progress of Ph.D. and Completed MS)<br/>
+- **Dissertation Committee Member:** Ismail Hossain, PhD in Computer Science(In Progress)<br/>
+- **Dissertation Committee Co-Chair:** Solayman Hossain Emon, PhD Candidate in Computational Science Program(In Progress of Ph.D. and Completed MS in December 2025 )<br/>
 - **Dissertation Committee Member:** Pablo Bustamante, PhD Candidate in Computational Science Program (In Progress)<br/>
-- **Dissertation Committee Member:** Solomon N. Amoo, PhD Candidate in Data Science Program, December 2025 (In Progress of Ph.D. and Completed MS)<br/>
+- **Dissertation Committee Member:** Solomon N. Amoo, PhD Candidate in Data Science Program (In Progress of Ph.D. and Completed MS in December 2025 )<br/>
 - **Dissertation Committee Member:** Basavarajaiah S Totada, PhD in Electrical and Computer Engineering, December 2025 (Completed)<br/>
 - **Dissertation Committee Member:** Andrews T Anum, PhD in CPS, December 2021 (Completed)<br/>
 
